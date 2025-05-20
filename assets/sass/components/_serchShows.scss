@@ -1,0 +1,20 @@
+.search {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  & input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 2em;
+    border-radius: 5px;
+    border: 2px solid #f0da29;
+    &:focus {
+      outline: none;
+    }
+  }
+}

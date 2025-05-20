@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.nav {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-color: #f0da29;
+  height: 5em;
+  color: #fff;
+  text-shadow: 3px 4px 15px #a6a6a6;
+
+  & .titlePage {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    & img {
+      filter: drop-shadow(3px 4px 15px #a6a6a6);
+    }
+  }
+}
+
+.contentGalery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  margin: 1em;
+  align-content: center;
+  justify-items: center;
+}

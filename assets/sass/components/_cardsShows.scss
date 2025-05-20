@@ -1,0 +1,26 @@
+.imageShow {
+  height: 300px;
+  object-fit: cover;
+  transition: ease 0.5s;
+  text-align: center;
+  cursor: pointer;
+}
+figcaption {
+  text-align: center;
+  color: #704b5e;
+  cursor: pointer;
+}
+@media (hover: hover) {
+  figure:hover {
+    & .imageShow {
+      transition: ease 0.5s;
+      height: 350px;
+      object-fit: cover;
+    }
+    & figcaption {
+      transition: ease 0.5s;
+      font-size: 1.5em;
+      color: #f0298f;
+    }
+  }
+}
